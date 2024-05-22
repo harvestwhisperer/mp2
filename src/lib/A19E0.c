@@ -1,0 +1,5 @@
+#include "common.h"
+
+INCLUDE_ASM(const s32, "lib/A19E0", alSndpGetState);
+
+INCLUDE_ASM(const s32, "lib/A19E0", alSndpSetPitch);

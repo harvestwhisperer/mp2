@@ -50,7 +50,7 @@ INCLUDE_ASM(const s32, "7E850", func_8007EA50_7F650);
 
 INCLUDE_ASM(const s32, "7E850", func_8007EAF4_7F6F4);
 
-INCLUDE_ASM(const s32, "7E850", func_8007EB2C_7F72C);
+INCLUDE_ASM(const s32, "7E850", __CallBackDmaNew);
 
 INCLUDE_ASM(const s32, "7E850", func_8007EB8C_7F78C);
 

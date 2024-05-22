@@ -62,7 +62,7 @@ INCLUDE_ASM(const s32, "ECE0", func_8000FEFC_10AFC);
 
 INCLUDE_ASM(const s32, "ECE0", func_80010070_10C70);
 
-INCLUDE_ASM(const s32, "ECE0", func_800100FC_10CFC);
+INCLUDE_ASM(const s32, "ECE0", __osGetActiveQueue);
 
 INCLUDE_ASM(const s32, "ECE0", func_80010108_10D08);
 

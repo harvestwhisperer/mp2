@@ -28,7 +28,7 @@ INCLUDE_ASM(const s32, "1D0B0", func_8001D130_1DD30);
 
 INCLUDE_ASM(const s32, "1D0B0", func_8001D13C_1DD3C);
 
-INCLUDE_ASM(const s32, "1D0B0", func_8001D178_1DD78);
+INCLUDE_ASM(const s32, "1D0B0", osViExtendVStart);
 
 INCLUDE_ASM(const s32, "1D0B0", func_8001D184_1DD84);
 

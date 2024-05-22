@@ -68,7 +68,7 @@ INCLUDE_ASM(const s32, "C8E0", func_8000C36C_CF6C);
 
 INCLUDE_ASM(const s32, "C8E0", func_8000C37C_CF7C);
 
-INCLUDE_ASM(const s32, "C8E0", func_8000C38C_CF8C);
+INCLUDE_ASM(const s32, "C8E0", myfree);
 
 INCLUDE_ASM(const s32, "C8E0", func_8000C398_CF98);
 

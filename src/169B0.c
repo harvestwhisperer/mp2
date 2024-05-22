@@ -10,7 +10,7 @@ INCLUDE_ASM(const s32, "169B0", func_800161D4_16DD4);
 
 INCLUDE_ASM(const s32, "169B0", func_80016320_16F20);
 
-void func_8001644C_1704C(void) {
+void __dummy(void) {
 }
 
 INCLUDE_ASM(const s32, "169B0", func_80016454_17054);
@@ -37,7 +37,7 @@ INCLUDE_ASM(const s32, "169B0", func_80016BD0_177D0);
 
 INCLUDE_ASM(const s32, "169B0", func_80016F54_17B54);
 
-INCLUDE_ASM(const s32, "169B0", func_80017228_17E28);
+INCLUDE_ASM(const s32, "169B0", osAfterPreNMI);
 
 INCLUDE_ASM(const s32, "169B0", func_80017244_17E44);
 

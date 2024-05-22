@@ -8,7 +8,7 @@ INCLUDE_ASM(const s32, "3D6A0", func_8003CDAC_3D9AC);
 
 INCLUDE_ASM(const s32, "3D6A0", func_8003CF48_3DB48);
 
-INCLUDE_ASM(const s32, "3D6A0", func_8003CF84_3DB84);
+INCLUDE_ASM(const s32, "3D6A0", n_alSeqpDelete);
 
 INCLUDE_ASM(const s32, "3D6A0", func_8003CFA0_3DBA0);
 

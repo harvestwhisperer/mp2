@@ -88,7 +88,7 @@ INCLUDE_ASM(const s32, "5F3B0", func_800615FC_621FC);
 
 INCLUDE_ASM(const s32, "5F3B0", func_800616C4_622C4);
 
-INCLUDE_ASM(const s32, "5F3B0", func_80061720_62320);
+INCLUDE_ASM(const s32, "5F3B0", osSetTime);
 
 INCLUDE_ASM(const s32, "5F3B0", func_80061734_62334);
 

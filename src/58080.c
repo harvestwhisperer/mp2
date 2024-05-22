@@ -287,7 +287,7 @@ INCLUDE_ASM(const s32, "58080", func_8005E260_5EE60);
 
 INCLUDE_ASM(const s32, "58080", func_8005E2B8_5EEB8);
 
-void func_8005E2F4_5EEF4(void) {
+void ptstart(void) {
 }
 
 INCLUDE_ASM(const s32, "58080", func_8005E2FC_5EEFC);
