@@ -1720,10 +1720,27 @@ segments:
     start: 0x1750AC0
     subsegments:
       - [ 0x1750AC0, bin, "two-beeps.seq"]
+      - [ 0x1750B30, bin, "story-one.seq"]
+      - [ 0x1752810, bin, "go-lucky.seq"]
+      - [ 0x1753820, bin, "welcome-to-mario-land.seq"] 
+      - [ 0x1754A20, bin, "laboratory.seq"]
+      - [ 0x17556F8, bin, "rules-land.seq"]
+      - [ 0x1756650, bin]
       - [ 0x175EE78, bin, "space-land.seq"]
       - [ 0x1760DC8, bin, "horror-land.seq"]
       - [ 0x1762F40, bin, "mystery-land.seq"]
       - [ 0x17651A8, bin, "bowser-land.seq"]
+      - [ 0x1767A00, bin]
+      - [ 0x179DBC8, bin, "fanfare.seq"]
+      - [ 0x17A2AF0, bin, "empty.seq"]
+
+  - name: wbk
+    type: bin
+    start: 0x17A2BC0
+  
+  - name: ptr_table
+    type: bin
+    start: 0x17BFC30
 
   - name: padding
     type: bin
