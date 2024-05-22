@@ -8,3 +8,10 @@ marioparty2.ld
 ctx.c
 
 .vscode
+
+*.z64
+*.n64
+
+*.ld
+
+*.bin

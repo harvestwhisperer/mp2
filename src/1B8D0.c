@@ -1,5 +1,8 @@
 #include "common.h"
 
+extern u32 D_800C9B61;
+extern u32 D_800FA5E0;
+
 INCLUDE_ASM(const s32, "1B8D0", func_8001ACD0_1B8D0);
 
 INCLUDE_ASM(const s32, "1B8D0", func_8001AEDC_1BADC);
@@ -12,7 +15,11 @@ INCLUDE_ASM(const s32, "1B8D0", func_8001B014_1BC14);
 
 INCLUDE_ASM(const s32, "1B8D0", func_8001B078_1BC78);
 
-INCLUDE_ASM(const s32, "1B8D0", func_8001B0B4_1BCB4);
+//INCLUDE_ASM(const s32, "1B8D0", func_8001B0B4_1BCB4);
+
+s32 func_8001B0B4_1BCB4(void) {
+    return (osEepromWrite(&D_800FA5E0, 0, &D_800C9B61) != 0) * 2;
+}
 
 INCLUDE_ASM(const s32, "1B8D0", func_8001B0E8_1BCE8);
 

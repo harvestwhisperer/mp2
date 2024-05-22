@@ -19,4 +19,10 @@ typedef u8 Addr[];
 
 #define va_arg(AP,TYPE) (AP = (__gnuc_va_list) ((char *) (AP) + __va_rounded_size (TYPE)), *((TYPE *) (void *) ((char *) (AP) - ((sizeof (TYPE) < __va_rounded_size (char) ? sizeof (TYPE) : __va_rounded_size (TYPE))))))
 
+typedef struct {
+    f32 x;
+    f32 y;
+    f32 z;
+} Vec3f;
+
 #endif

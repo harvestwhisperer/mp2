@@ -1,5 +1,8 @@
 #include "common.h"
 
+extern s8 D_800BF794;
+
+
 INCLUDE_ASM(const s32, "C8E0", func_8000BCE0_C8E0);
 
 INCLUDE_ASM(const s32, "C8E0", func_8000BDC4_C9C4);
@@ -48,7 +51,11 @@ INCLUDE_ASM(const s32, "C8E0", func_8000BFF0_CBF0);
 
 INCLUDE_ASM(const s32, "C8E0", func_8000C004_CC04);
 
-INCLUDE_ASM(const s32, "C8E0", func_8000C018_CC18);
+//INCLUDE_ASM(const s32, "C8E0", func_8000C018_CC18);
+
+void func_8000C018_CC18(s8 arg0) {
+    D_800BF794 = arg0;
+}
 
 INCLUDE_ASM(const s32, "C8E0", func_8000C024_CC24);
 
