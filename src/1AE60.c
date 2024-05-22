@@ -1,8 +1,31 @@
 #include "common.h"
 
+#include "415E0.h"
+#include "17EF0.h"
+#include "80230.h"
+
+s32 func_80017680_18280();                          
+void func_80040DC8_419C8(s32);                         
+s16 func_80082800_83400(s32);              
+
+
 INCLUDE_ASM(const s32, "1AE60", func_8001A260_1AE60);
 
-INCLUDE_ASM(const s32, "1AE60", func_8001A2F8_1AEF8);
+//INCLUDE_ASM(const s32, "1AE60", func_8001A2F8_1AEF8);
+
+s16 func_8001A2F8_1AEF8(void) {
+
+    s16 temp_s0;
+    s32 temp_v0;
+
+    temp_v0 = func_80017680_18280();
+    temp_s0 = func_80082800_83400(temp_v0);
+
+    func_80040DC8_419C8(temp_v0);
+
+    return temp_s0;
+
+}
 
 INCLUDE_ASM(const s32, "1AE60", func_8001A340_1AF40);
 
