@@ -35,13 +35,13 @@ void func_80102884_40A3B4_MinigameCoaster(s16 arg0) {
     func_8008D59C_8E19C(arg0, thing);
 }
 
-INCLUDE_ASM(const s32, "overlays/ovl_6E_MinigameCoaster/40A330", func_801028B8_40A3E8_MinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6E_MinigameCoaster/40A330", func_801028B8_40A3E8_MinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6E_MinigameCoaster/40A330", func_801028FC_40A42C_MinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6E_MinigameCoaster/40A330", func_801028FC_40A42C_MinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6E_MinigameCoaster/40A330", func_801032AC_40ADDC_MinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6E_MinigameCoaster/40A330", func_801032AC_40ADDC_MinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6E_MinigameCoaster/40A330", func_80103360_40AE90_MinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6E_MinigameCoaster/40A330", func_80103360_40AE90_MinigameCoaster);
 
 void func_80103BCC_40B6FC_MinigameCoaster(void) {
     if (func_8008F618_90218() == 0) {
@@ -53,7 +53,7 @@ void func_80103BCC_40B6FC_MinigameCoaster(void) {
     }
 }
 
-INCLUDE_ASM(const s32, "overlays/ovl_6E_MinigameCoaster/40A330", func_80103C18_40B748_MinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6E_MinigameCoaster/40A330", func_80103C18_40B748_MinigameCoaster);
 
 void func_80103C5C_40B78C_MinigameCoaster(void) {
     func_800433D8_43FD8();

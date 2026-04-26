@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A67C0", __osSetCount);
+INCLUDE_ASM("asm/nonmatchings/A67C0", __osSetCount);

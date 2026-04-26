@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "AEA90", __osSpRawReadIo);
+INCLUDE_ASM("asm/nonmatchings/AEA90", __osSpRawReadIo);

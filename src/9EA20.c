@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "9EA20", __osDevMgrMain);
+INCLUDE_ASM("asm/nonmatchings/9EA20", __osDevMgrMain);

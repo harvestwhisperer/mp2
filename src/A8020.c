@@ -1,5 +1,5 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A8020", __osMotorAccess);
+INCLUDE_ASM("asm/nonmatchings/A8020", __osMotorAccess);
 
-INCLUDE_ASM(const s32, "A8020", osMotorInit);
+INCLUDE_ASM("asm/nonmatchings/A8020", osMotorInit);

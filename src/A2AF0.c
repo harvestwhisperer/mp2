@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A2AF0", osWritebackDCacheAll);
+INCLUDE_ASM("asm/nonmatchings/A2AF0", osWritebackDCacheAll);

@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A7AA0", osViSetSpecialFeatures);
+INCLUDE_ASM("asm/nonmatchings/A7AA0", osViSetSpecialFeatures);

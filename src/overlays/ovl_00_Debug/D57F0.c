@@ -267,7 +267,7 @@ void func_80102D54_D5D44_Debug(f32 arg0, f32 arg1, f32 arg2, f32 arg3, f32 arg4,
 }
 
 //always running
-INCLUDE_ASM(const s32, "overlays/ovl_00_Debug/D57F0", func_80102DEC_D5DDC_Debug);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_00_Debug/D57F0", func_80102DEC_D5DDC_Debug);
 
 void func_80103594_D6584_Debug(omObjData* arg0) {
     s32 i, j;
@@ -409,7 +409,7 @@ void func_80103838_D6828_Debug(omObjData* arg0) {
     } 
 }
 #else
-INCLUDE_ASM(const s32, "overlays/ovl_00_Debug/D57F0", func_80103838_D6828_Debug);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_00_Debug/D57F0", func_80103838_D6828_Debug);
 #endif
 
 void func_80103C4C_D6C3C_Debug(omObjData* arg0) {
@@ -449,7 +449,7 @@ void func_80103C4C_D6C3C_Debug(omObjData* arg0) {
     }
 }
 
-INCLUDE_ASM(const s32, "overlays/ovl_00_Debug/D57F0", func_80103E50_D6E40_Debug);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_00_Debug/D57F0", func_80103E50_D6E40_Debug);
 
 void func_80104ADC_D7ACC_Debug(void) {
     s32 temp_s2;

@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A7A50", osViSetMode);
+INCLUDE_ASM("asm/nonmatchings/A7A50", osViSetMode);

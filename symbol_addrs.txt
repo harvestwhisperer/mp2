@@ -297,6 +297,7 @@ osCartRomInit = 0x8009DCA0; //rom:0x9E8A0
 Hu3DModelCreate = 0x80027884; //rom:0x28484
 _WriteEeprom = 0x8001AF0C; //rom:0x1BB0C
 _ReadEeprom = 0x8001B014; //rom:0x1BC14
+MBModelFileCreate = 0x800437F8; //rom:0x443F8
 
 DataDirMax = 0x800D81C4; //type:u32
 DataDirInit = 0x80017840; //rom:0x18440

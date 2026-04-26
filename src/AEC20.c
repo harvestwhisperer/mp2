@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "AEC20", osMapTLBRdb);
+INCLUDE_ASM("asm/nonmatchings/AEC20", osMapTLBRdb);

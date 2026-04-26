@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "AECD0", __osViInit);
+INCLUDE_ASM("asm/nonmatchings/AECD0", __osViInit);

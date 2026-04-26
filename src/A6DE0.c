@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A6DE0", osGetThreadPri);
+INCLUDE_ASM("asm/nonmatchings/A6DE0", osGetThreadPri);

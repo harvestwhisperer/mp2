@@ -1,13 +1,13 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "187C0", func_80017BC0_187C0);
+INCLUDE_ASM("asm/nonmatchings/187C0", func_80017BC0_187C0);
 
-INCLUDE_ASM(const s32, "187C0", func_80017C5C_1885C);
+INCLUDE_ASM("asm/nonmatchings/187C0", func_80017C5C_1885C);
 
-INCLUDE_ASM(const s32, "187C0", func_80017ECC_18ACC);
+INCLUDE_ASM("asm/nonmatchings/187C0", func_80017ECC_18ACC);
 
-INCLUDE_ASM(const s32, "187C0", func_80018378_18F78);
+INCLUDE_ASM("asm/nonmatchings/187C0", func_80018378_18F78);
 
-INCLUDE_ASM(const s32, "187C0", func_800187F4_193F4);
+INCLUDE_ASM("asm/nonmatchings/187C0", func_800187F4_193F4);
 
-INCLUDE_ASM(const s32, "187C0", DecodeData);
+INCLUDE_ASM("asm/nonmatchings/187C0", DecodeData);

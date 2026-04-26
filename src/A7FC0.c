@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A7FC0", osViBlack);
+INCLUDE_ASM("asm/nonmatchings/A7FC0", osViBlack);

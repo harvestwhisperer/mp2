@@ -1,2 +1,13 @@
-spimdisasm==1.33.0
-splat64[mips]==0.34.0
+ninja_syntax
+#temporary until splat 0.39.2 releases
+splat64 @ git+https://github.com/Rainchus/splat.git@rework_bss_size
+#splat64[mips]==0.39.2
+
+spimdisasm==1.40.0
+GitPython
+colour
+colorama
+ansiwrap
+watchdog
+python-Levenshtein
+cxxfilt

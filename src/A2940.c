@@ -1,5 +1,5 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A2940", osInvalDCache);
+INCLUDE_ASM("asm/nonmatchings/A2940", osInvalDCache);
 
-INCLUDE_ASM(const s32, "A2940", osInvalICache);
+INCLUDE_ASM("asm/nonmatchings/A2940", osInvalICache);

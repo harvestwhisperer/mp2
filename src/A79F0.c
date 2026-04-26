@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A79F0", osViSetEvent);
+INCLUDE_ASM("asm/nonmatchings/A79F0", osViSetEvent);

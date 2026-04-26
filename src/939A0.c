@@ -1,5 +1,5 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "939A0", setjmp);
+INCLUDE_ASM("asm/nonmatchings/939A0", setjmp);
 
-INCLUDE_ASM(const s32, "939A0", longjmp);
+INCLUDE_ASM("asm/nonmatchings/939A0", longjmp);

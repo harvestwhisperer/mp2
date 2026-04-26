@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "AEAE0", __osSpRawWriteIo);
+INCLUDE_ASM("asm/nonmatchings/AEAE0", __osSpRawWriteIo);

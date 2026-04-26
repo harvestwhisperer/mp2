@@ -10,61 +10,61 @@ void func_8002F1A4_2FDA4(void);
 void func_80069698_6A298(void);
 void omDestroyObjMan(void);
 
-INCLUDE_ASM(const s32, "objmain", omInitObjMan);
+INCLUDE_ASM("asm/nonmatchings/objmain", omInitObjMan);
 
-INCLUDE_ASM(const s32, "objmain", omDestroyObjMan);
+INCLUDE_ASM("asm/nonmatchings/objmain", omDestroyObjMan);
 
-INCLUDE_ASM(const s32, "objmain", omAddObj);
+INCLUDE_ASM("asm/nonmatchings/objmain", omAddObj);
 
-INCLUDE_ASM(const s32, "objmain", omSetObjPrio);
+INCLUDE_ASM("asm/nonmatchings/objmain", omSetObjPrio);
 
-INCLUDE_ASM(const s32, "objmain", omInsertObj);
+INCLUDE_ASM("asm/nonmatchings/objmain", omInsertObj);
 
-INCLUDE_ASM(const s32, "objmain", omDelObj);
+INCLUDE_ASM("asm/nonmatchings/objmain", omDelObj);
 
-INCLUDE_ASM(const s32, "objmain", omSetStat);
+INCLUDE_ASM("asm/nonmatchings/objmain", omSetStat);
 
-INCLUDE_ASM(const s32, "objmain", omSetStatBit);
+INCLUDE_ASM("asm/nonmatchings/objmain", omSetStatBit);
 
-INCLUDE_ASM(const s32, "objmain", omResetStatBit);
+INCLUDE_ASM("asm/nonmatchings/objmain", omResetStatBit);
 
-INCLUDE_ASM(const s32, "objmain", omPrcSetStat);
+INCLUDE_ASM("asm/nonmatchings/objmain", omPrcSetStat);
 
-INCLUDE_ASM(const s32, "objmain", omPrcSetStatBit);
+INCLUDE_ASM("asm/nonmatchings/objmain", omPrcSetStatBit);
 
-INCLUDE_ASM(const s32, "objmain", omPrcResetStatBit);
+INCLUDE_ASM("asm/nonmatchings/objmain", omPrcResetStatBit);
 
-INCLUDE_ASM(const s32, "objmain", omSetTra);
+INCLUDE_ASM("asm/nonmatchings/objmain", omSetTra);
 
-INCLUDE_ASM(const s32, "objmain", omSetRot);
+INCLUDE_ASM("asm/nonmatchings/objmain", omSetRot);
 
-INCLUDE_ASM(const s32, "objmain", omSetSca);
+INCLUDE_ASM("asm/nonmatchings/objmain", omSetSca);
 
-INCLUDE_ASM(const s32, "objmain", func_80076BD0_777D0);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076BD0_777D0);
 
-INCLUDE_ASM(const s32, "objmain", func_80076CA0_778A0);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076CA0_778A0);
 
-INCLUDE_ASM(const s32, "objmain", func_80076D10_77910);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076D10_77910);
 
-INCLUDE_ASM(const s32, "objmain", func_80076D80_77980);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076D80_77980);
 
-INCLUDE_ASM(const s32, "objmain", func_80076D98_77998);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076D98_77998);
 
-INCLUDE_ASM(const s32, "objmain", func_80076DC0_779C0);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076DC0_779C0);
 
-INCLUDE_ASM(const s32, "objmain", func_80076E20_77A20);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076E20_77A20);
 
-INCLUDE_ASM(const s32, "objmain", func_80076E54_77A54);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076E54_77A54);
 
-INCLUDE_ASM(const s32, "objmain", omAddPrcObj);
+INCLUDE_ASM("asm/nonmatchings/objmain", omAddPrcObj);
 
-INCLUDE_ASM(const s32, "objmain", func_80076F14_77B14);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80076F14_77B14);
 
-INCLUDE_ASM(const s32, "objmain", omDelPrcObj);
+INCLUDE_ASM("asm/nonmatchings/objmain", omDelPrcObj);
 
-INCLUDE_ASM(const s32, "objmain", omDestroyPrcObj);
+INCLUDE_ASM("asm/nonmatchings/objmain", omDestroyPrcObj);
 
-INCLUDE_ASM(const s32, "objmain", omPrcSetDestructor);
+INCLUDE_ASM("asm/nonmatchings/objmain", omPrcSetDestructor);
 
 s32 omOvlCallEx(s32 overlayID, s16 event, s16 stat) {
     omOvlHisData* history;
@@ -209,25 +209,25 @@ void omOvlKill(void) {
     func_80029708_2A308(1);
 }
 
-INCLUDE_ASM(const s32, "objmain", omMain);
+INCLUDE_ASM("asm/nonmatchings/objmain", omMain);
 
-INCLUDE_ASM(const s32, "objmain", func_80077EF0_78AF0);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80077EF0_78AF0);
 
-INCLUDE_ASM(const s32, "objmain", func_80077F50_78B50);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80077F50_78B50);
 
-INCLUDE_ASM(const s32, "objmain", func_80078A08_79608);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80078A08_79608);
 
-INCLUDE_ASM(const s32, "objmain", func_80078EA8_79AA8);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80078EA8_79AA8);
 
-INCLUDE_ASM(const s32, "objmain", func_80078EC8_79AC8);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80078EC8_79AC8);
 
-INCLUDE_ASM(const s32, "objmain", func_80078FF8_79BF8);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80078FF8_79BF8);
 
-INCLUDE_ASM(const s32, "objmain", func_80079128_79D28);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80079128_79D28);
 
-INCLUDE_ASM(const s32, "objmain", func_80079294_79E94);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80079294_79E94);
 
-INCLUDE_ASM(const s32, "objmain", func_80079338_79F38);
+INCLUDE_ASM("asm/nonmatchings/objmain", func_80079338_79F38);
 
 void func_8007935C_79F5C(s16 arg0, s16 arg1, s16 arg2) {
     D_800FFDF2_1009F2 = arg0;

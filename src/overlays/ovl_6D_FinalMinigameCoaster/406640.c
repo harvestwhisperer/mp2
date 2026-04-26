@@ -57,31 +57,31 @@ void func_801028E0_406720_FinalMinigameCoaster(s16 arg0) {
     func_8008D59C_8E19C(arg0, thing);
 }
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80102914_406754_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80102914_406754_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_801029C8_406808_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_801029C8_406808_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80102AEC_40692C_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80102AEC_40692C_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80102C00_406A40_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80102C00_406A40_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_801031D0_407010_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_801031D0_407010_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_8010370C_40754C_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_8010370C_40754C_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80103E04_407C44_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80103E04_407C44_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80104270_4080B0_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80104270_4080B0_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_801042DC_40811C_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_801042DC_40811C_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80104380_4081C0_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80104380_4081C0_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80104AFC_40893C_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80104AFC_40893C_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_8010565C_40949C_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_8010565C_40949C_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80105CE8_409B28_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80105CE8_409B28_FinalMinigameCoaster);
 
 void func_80105EC0_409D00_FinalMinigameCoaster(void) {
     s16 minigameOverlayID;
@@ -112,12 +112,12 @@ void func_80105EC0_409D00_FinalMinigameCoaster(void) {
     }
 }
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80105FBC_409DFC_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80105FBC_409DFC_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106018_409E58_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106018_409E58_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106054_409E94_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106054_409E94_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106160_409FA0_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106160_409FA0_FinalMinigameCoaster);
 
-INCLUDE_ASM(const s32, "overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106214_40A054_FinalMinigameCoaster);
+INCLUDE_ASM("asm/nonmatchings/overlays/ovl_6D_FinalMinigameCoaster/406640", func_80106214_40A054_FinalMinigameCoaster);

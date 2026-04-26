@@ -1,5 +1,5 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "9EED0", osAiGetLength);
+INCLUDE_ASM("asm/nonmatchings/9EED0", osAiGetLength);
 
-INCLUDE_ASM(const s32, "9EED0", osAiSetFrequency);
+INCLUDE_ASM("asm/nonmatchings/9EED0", osAiSetFrequency);

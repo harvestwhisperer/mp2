@@ -1,5 +1,5 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A76B0", osCreateViManager);
+INCLUDE_ASM("asm/nonmatchings/A76B0", osCreateViManager);
 
-INCLUDE_ASM(const s32, "A76B0", viMgrMain);
+INCLUDE_ASM("asm/nonmatchings/A76B0", viMgrMain);

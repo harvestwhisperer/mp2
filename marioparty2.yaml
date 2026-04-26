@@ -21,7 +21,7 @@ options:
   asm_data_macro: dlabel
   migrate_rodata_to_functions: True
   subalign: 8
-  use_legacy_include_asm: True
+  use_legacy_include_asm: False
   # extensions_path: tools/splat_ext
   # mips_abi_float_regs: o32
   # section_order: [".text", ".data", ".rodata", ".bss"]
@@ -147,7 +147,7 @@ segments:
       - [0x9D6D0, c]
       - [0x9D750, c]
       - [0x9D840, c]
-      - [0x9D8C0, c]
+      - [0x9D8C0, asm]
       - [0x9E2C0, c]
       - [0x9E740, c]
       - [0x9E7A0, c]
@@ -355,7 +355,8 @@ segments:
       - [0xB87C0, c]
       - [0xB8920, c]
       - [0xB8AC0, c]
-      - [0xB8FC0, data]
+      - [0xB8FC0, c]
+      - [0xB9190, data]
       - {0xD57F0, type: bss, vram: 0x800D4BF0, name: globalBSS }
   - type: code
     start: 0x0D57F0

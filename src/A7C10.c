@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A7C10", osViSetYScale);
+INCLUDE_ASM("asm/nonmatchings/A7C10", osViSetYScale);

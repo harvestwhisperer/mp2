@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "99D50", __LeoBootGame3);
+INCLUDE_ASM("asm/nonmatchings/99D50", __LeoBootGame3);

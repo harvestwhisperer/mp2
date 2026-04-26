@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A6FF0", osStopThread);
+INCLUDE_ASM("asm/nonmatchings/A6FF0", osStopThread);

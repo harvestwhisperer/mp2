@@ -1,27 +1,27 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C5D0_7D1D0);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C5D0_7D1D0);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C668_7D268);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C668_7D268);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C6CC_7D2CC);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C6CC_7D2CC);
 
-INCLUDE_ASM(const s32, "7D1D0", DrawDebugText);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", DrawDebugText);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C7F4_7D3F4);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C7F4_7D3F4);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C898_7D498);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C898_7D498);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C8E0_7D4E0);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C8E0_7D4E0);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C91C_7D51C);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C91C_7D51C);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C94C_7D54C);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C94C_7D54C);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C990_7D590);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C990_7D590);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C9A8_7D5A8);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C9A8_7D5A8);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007C9B4_7D5B4);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007C9B4_7D5B4);
 
-INCLUDE_ASM(const s32, "7D1D0", func_8007CA0C_7D60C);
+INCLUDE_ASM("asm/nonmatchings/7D1D0", func_8007CA0C_7D60C);

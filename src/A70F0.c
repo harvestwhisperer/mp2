@@ -1,3 +1,3 @@
 #include "common.h"
 
-INCLUDE_ASM(const s32, "A70F0", osYieldThread);
+INCLUDE_ASM("asm/nonmatchings/A70F0", osYieldThread);
